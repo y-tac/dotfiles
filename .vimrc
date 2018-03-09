@@ -46,3 +46,31 @@ syntax on
 filetype on
 filetype plugin on
 filetype indent on
+syntax enable
+set t_Co=256
+set smarttab
+set expandtab
+set virtualedit=block
+
+set ignorecase
+set smartcase
+set incsearch
+set nohlsearch
+set wrapscan
+
+set list
+set number
+set listchars=tab:>-,trail:~
+set ambiwidth=double
+set laststatus=2
+set showtabline=2
+
+set clipboard=unnamed
+
+set backspace=eol,indent,start
+
+set wildmenu
+set wildmode=list:full
+set wildignore=*.o,*.obj,*.pyc,*.so,*.dll
+let g:python_highlight_all = 1
+

@@ -37,6 +37,11 @@ source ~/.zsh/completion/git-completion.zsh
 source ~/.zsh/completion/git-prompt.sh
 autoload colors
 colors
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
+
+
 
 PROMPT='${fg[green]}%n${reset_color}@${fg[red]}%m${reset_color} $(__git_ps1 " (%s)")
 $ '

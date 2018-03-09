@@ -35,7 +35,6 @@ endif
 
 
 " ファイルタイプ別のプラグイン/インデントを有効にする
-filetype plugin indent on
 
 "------- Preferences --------"
 set number

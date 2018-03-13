@@ -1,7 +1,19 @@
 # 基本は github.com のレポジトリーを指定するだけ
 [[plugins]]
 repo = 'Shougo/dein.vim'
+repo = 'altercation/vim-colors-solarized'
+repo = 'Shougo/Unite.vim'
+repo = 'Shougo/unite-outline'
+repo = 'thinca/vim-quickrun'
+repo = 'kana/vim-smartinput'
+repo = 'kana/vim-textobj-user'
+repo = 'Shougo/neocomplete.vim'
 repo = 'davidhalter/jedi-vim'
+repo = 'andviro/flake8-vim'
+repo = 'hynek/vim-python-pep8-indent'
+repo = 'tpope/vim-markdown'
+repo = 'scrooloose/syntastic'
+repo = 'airblade/vim-gitgutter'
 
 # git clone 後、実行すべきコマンドがある場合はこんな感じ
 [[plugins]]
@@ -34,14 +46,8 @@ if   = '''! has('kaoriya')'''
 repo    = 'vim-airline/vim-airline'
 depends = ['vim-airline-themes']
 
+
 # 依存関係を指定したからと言って、自動でインストールはされない（ここは NeoBundle と違う）
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
 
-
-[[plugins]] # toml syntax
-repo = 'cespare/vim-toml'
-on_ft = 'toml'
-
-[[plugins]] # カラースキーマ
-repo = 'altercation/vim-colors-solarized'

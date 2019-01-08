@@ -40,9 +40,6 @@ fi
 autoload colors
 colors
 
-export PYENV_ROOT=$HOME/.pyenv
-export PATH=$PYENV_ROOT/bin:$PATH
-eval "$(pyenv init -)"
 zstyle ':completion:*:*:git:*' script ~/.git-completion.zsh
 source ~/.git-prompt.sh
 setopt prompt_subst
